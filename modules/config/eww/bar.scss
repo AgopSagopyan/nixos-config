@@ -1,0 +1,44 @@
+// Reset & Global Styles
+* {
+  all: unset; // Clear default GTK styles
+  font-family: "JetBrains Mono", "Ubuntu Nerd Font", sans-serif;
+  font-size: 14px;
+}
+
+// The Bar Container
+window {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+// Workspaces Section (Left)
+.workspaces {
+  padding-left: 10px;
+  
+  button {
+    color: #ffffff;
+    padding: 0 8px;
+    margin: 0 2px;
+    
+    &:hover {
+      background-color: #ffffff;
+      color: #000000;
+      border-radius: 4px;
+    }
+  }
+}
+
+// Window Title Section (Center)
+.window-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+// Clock Section (Right)
+.sidestuff {
+  padding-right: 15px;
+  
+  .clock {
+    color: #ffffff;
+  }
+}

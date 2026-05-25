@@ -1,0 +1,278 @@
+[02:34:07.776][info] [#0:/home/keremcem/.config/nvim/lua_ls/main.lua:68]: Lua Lsp startup, root: 	/home/keremcem/.config/nvim/lua_ls
+[02:34:07.776][info] [#0:/home/keremcem/.config/nvim/lua_ls/main.lua:69]: ROOT:	/home/keremcem/.config/nvim/lua_ls
+[02:34:07.776][info] [#0:/home/keremcem/.config/nvim/lua_ls/main.lua:70]: LOGPATH:	/home/keremcem/.config/nvim/lua_ls/log
+[02:34:07.776][info] [#0:/home/keremcem/.config/nvim/lua_ls/main.lua:71]: METAPATH:	/home/keremcem/.config/nvim/lua_ls/meta
+[02:34:07.776][info] [#0:/home/keremcem/.config/nvim/lua_ls/main.lua:72]: VERSION:	3.13.9
+[02:34:07.818][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[02:34:07.818][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 2.252 MB
+        # 00 : 2.252 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:34:07.926][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      positionEncodings = { "utf-8", "utf-16", "utf-32" }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = true,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit", "command" }
+        }
+      },
+      codeLens = {
+        dynamicRegistration = false,
+        resolveSupport = {
+          properties = { "command" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = false,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          preselectSupport = false,
+          resolveSupport = {
+            properties = { "additionalTextEdits", "command" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "editRange", "insertTextFormat", "insertTextMode", "data" }
+        },
+        contextSupport = true,
+        dynamicRegistration = false
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = false,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = false,
+        foldingRange = {
+          collapsedText = true
+        },
+        foldingRangeKind = {
+          valueSet = { "comment", "imports", "region" }
+        },
+        lineFoldingOnly = true
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        linkSupport = true
+      },
+      inlayHint = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "textEdits", "tooltip", "location", "command" }
+        }
+      },
+      publishDiagnostics = {
+        dataSupport = true,
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      rangeFormatting = {
+        dynamicRegistration = true,
+        rangesSupport = true
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = true,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = true
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeConfiguration = {
+        dynamicRegistration = false
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      inlayHint = {
+        refreshSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.11.5+v0.11.5"
+  },
+  processId = 17600,
+  trace = "off",
+  workDoneToken = "1"
+}
+[02:34:07.926][info] [#0:script/language.lua:137]: VSC language: nil
+[02:34:07.926][info] [#0:script/language.lua:138]: LS  language: en-us
+[02:34:08.229][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:08.229][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:34:08.229][info] [#0:script/provider/provider.lua:66]: nil
+[02:34:08.346][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[02:34:08.462][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[02:34:08.465][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[02:34:08.465][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/table.lua
+[02:34:08.465][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/os.lua
+[02:34:08.465][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/io.lua
+[02:34:08.465][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[02:34:08.466][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[02:34:08.466][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/package.lua
+[02:34:08.466][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/math.lua
+[02:34:08.466][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/string.lua
+[02:34:08.466][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[02:34:08.467][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[02:34:08.567][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
+[02:34:08.567][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[02:34:08.669][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[02:34:08.670][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[02:34:08.670][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[02:34:08.678][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[02:34:08.678][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 5.260 KB
+[02:34:08.688][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/string.lua
+[02:34:08.688][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.542 KB
+[02:34:08.696][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/math.lua
+[02:34:08.697][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[02:34:08.699][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/package.lua
+[02:34:08.699][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[02:34:08.701][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[02:34:08.701][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[02:34:08.711][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/io.lua
+[02:34:08.711][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
+[02:34:08.726][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[02:34:08.726][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.611 KB
+[02:34:08.731][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/os.lua
+[02:34:08.731][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
+[02:34:08.741][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/table.lua
+[02:34:08.741][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[02:34:08.744][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/keremcem/.config/nvim/lua_ls/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[02:34:08.844][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.078] sec: <fallback>
+[02:34:08.844][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[02:34:08.844][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[02:34:08.844][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[02:34:10.865][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/keremcem/.local/share/Steam/steamapps/compatdata/2808516083/pfx/drive_c/users/steamuser/AppData/Roaming/Brotato/Mods/TestCharacter/mod_main.lua
+[02:34:12.996][info] [#0:script/provider/provider.lua:176]: Server shutdown.
+[02:34:12.996][warn] [#0:script/pub/report.lua:24]: Load proto error:	Disconnected!
