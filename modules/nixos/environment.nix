@@ -44,6 +44,7 @@
       wget
       cloudflared
       git
+      git-lfs
       # vscode
       python314Packages.ds4drv
       php85Packages.php-cs-fixer
